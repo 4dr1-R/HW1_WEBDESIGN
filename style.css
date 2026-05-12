@@ -168,8 +168,9 @@ footer {
 }
 
 .contact-info {
-  background: white;
+  background: #ffffff;
   padding: 20px;
+  border: 2px, solid, #ff7ee3;
   border-radius: 10px;
   margin-bottom: 30px;
 }
@@ -178,7 +179,7 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  background: white;
+  background-image: linear-gradient(#af6dff6d, #fbc2eb6e), url('images/flower_bg.jpeg');
   padding: 20px;
   border-radius: 10px;
 }
@@ -192,11 +193,15 @@ footer {
   font-size: 1rem;
 }
 
+.contact-form label {
+  font-weight: bold;
+}
+
 .contact-form button {
   margin-top: 10px;
   padding: 12px;
   border: none;
-  background-color: #a18cd1;
+  background-color: #d18cc7;
   color: white;
   font-size: 1rem;
   border-radius: 8px;
@@ -205,5 +210,6 @@ footer {
 }
 
 .contact-form button:hover {
-  background-color: #8c6ccf;
+  background-color: #ca4a9d;
 }
+

@@ -1,0 +1,69 @@
+
+body {
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+img {
+    border-radius: 50%;
+    border: 3px solid #ff4ed6;
+    margin-bottom: 15px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#main-card {
+    background-color: #ffffff;
+    width: 320px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.24), hsla(0, 0%, 100%, 0.24)), url('images/flower_bg.jpeg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+#github-url {
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+}
+
+
+.text-primary {
+    color: #2c3e50;
+    margin: 10px 0 5px 0;
+    font-size: 1.5rem;
+}
+
+.text-secondary {
+    color: #7f8c8d;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: #ff30b0;
+    font-size: 0.85rem;
+    line-height: 1.8;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+#github-url:hover {
+    color: #ff0077;
+    text-shadow: 0 0 8px #ff00735d;
+    display: inline-block;
+
+}

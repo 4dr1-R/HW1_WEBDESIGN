@@ -1,0 +1,81 @@
+.card-container {
+    background-image:url('images/flower_bg.jpeg');
+    border-radius: 20px;
+    display: grid;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 20px;
+    grid-template-areas: 
+        "header header"
+        "sidebar main";
+    grid-template-columns: 250px 1fr;
+}
+
+
+.sidebar { 
+  grid-area: sidebar; 
+  background: #fff; 
+  padding: 20px; 
+  border-radius: 8px; 
+}
+
+.event-section { grid-area: main; }
+
+
+.event-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+
+.card {
+    background:white;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 5px solid #a543c1;
+    display: flex; 
+    flex-direction: column;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+.featured-card {
+    background: linear-gradient(#d16be0, #8e2db0);
+    color: white;
+    border-left: 5px solid #9d25be;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+   
+}
+
+
+.links {
+    color: #bf56dd;
+}
+
+.card strong{
+  color: #bf56dd;
+}
+
+@media (max-width: 768px) {
+
+    .card-container {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "sidebar"
+            "main";
+    }
+
+    .event-grid {
+        grid-template-columns: 1fr;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    nav {
+        justify-content: center;
+    }
+
+}

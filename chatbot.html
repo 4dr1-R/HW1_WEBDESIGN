@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="chatbot.css">
+    <style>
+        button{
+            border-radius: 5px;
+            padding: 10px 20px;
+            background-color: #c42b5e;
+            border: 2px solid #750327;
+            color: white;
+        }
+    </style>
+    
+</head>
+<body>
+    <header>
+        <h1>Love2Craft</h1>
+        <p>Feed your artsy spirit with the best supplies.</p>
+
+        <nav aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="content.html">Products</a>
+            <a href="contact.html">Contact</a>
+            <a href="card.html">Business Card</a>
+            <a href="overview.html">Events</a>
+            <a href="chatbot.html">Chatbot</a>
+       </nav>
+    </header>
+    
+    <main class="main-chatcontent">
+        <div class="chat-container" id="chat-container">
+        </div>
+        <form id="chat-form" style = "width: 100%; max-width: 80vw; gap: 10px;">
+            <input type="text" id="user-input" placeholder="Answer Here...">
+            <button type="submit">Trimite</button>
+        </form>
+        <script src="chatbot.js"></script>
+    </main>
+</body>
+</html>

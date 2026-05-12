@@ -1,0 +1,78 @@
+1.
+
+Paragraoh A takes all the main proprieties declared with:
+  p {
+            color: gray;
+            font-size: 1rem;
+            font-family: Georgia, serif;
+            line-height: 1.4;
+            padding: 4px 0;
+        }
+
+because it has nomother labels and it's not included into any class;
+
+Paragraph B:
+    color: steelblue;
+    font-size: 1.25rem;
+    background-color: #e8f4fd;
+    padding: 8px 14px;
+    border-left: 5px solid steelblue;
+    font-family: Arial, sans-serif;
+
+    These are the proprietis that are overwritten by the class ".info". The only propriety that is kepth from "p" is:
+    line-height: 1.4;
+
+Paragraph C:
+    - recieves the following proprietirs from the id selector "#warning":
+            color: darkred;
+            font-size: 0.8rem;
+            font-style: italic;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            border: 2px dashed darkred;
+            padding: 10px;
+            background-color: #fff0f0;
+            font-family: 'Courier New', monospace;
+
+    - from the element selector, only one propriety is kept:
+    line-height: 1.4;
+
+Paragraph D:
+    - recieves all the proprieties from the 
+        #warning.info {
+                color: darkorange;
+                background-color: #fff7e0;
+                border: 2px solid darkorange;
+                font-size: 1.1rem;
+                font-style: normal;
+                letter-spacing: 0.03em;
+            }
+
+    -recieves from #warning:
+        text-transform: uppercase;
+        padding: 10px;
+        font-family: 'Courier New', monospace;
+
+    -recieves from p:
+    line-height: 1.4;
+(Normally, the use of the same id label for two different elements is incorrect and can cause errors.)
+
+
+2.
+When multiple rules point to the same element, the browser uses a scoring system to decide who wins.
+
+For color, the browser uses darkorange because p is the weakest, .info is stromger than p but weaker than the id tags, 
+#warning is very strong but #warning.info is the strongest because it combines an id and class. that's why the browser applies the proprieties
+from #warning.info block over all the other ones.
+
+For font family, the browser uses 'Courier New', monospace because #warning.info doesn't define any font, so the browser applies the next font that
+has the highest specificity, therefore it uses the font family from #warning
+
+3.
+
+The browser chooses to apply the color defined in the head tag of the html file over the one defined in the linked css sheet because
+the attributes defined inside the head label of the document have a higher priority.
+
+
+
+

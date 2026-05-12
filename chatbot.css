@@ -1,0 +1,43 @@
+
+.main-chatcontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    flex-direction: column;
+    width: 100%;
+    min-height: 80vh;
+}
+
+.chat-container {
+    max-width:80vw;
+    width: 100%;
+    height: 30vw;
+    padding: 20px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.671), hsla(0, 0%, 100%, 0.573)), url('images/flower_bg.jpeg');
+    border-radius:10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow-y: auto;
+}
+        
+
+#user-input  {  
+    flex-grow: 1;      
+    padding: 12px;    
+    border-radius: 5px;
+    border: 2px solid #ffa9c6;
+}
+
+#user-input:focus {
+    outline: none;
+    border: 2px solid #ff6498;
+}
+
+.message {
+    margin-bottom: 20px;
+}
+
+#chat-form {
+    display: flex;
+}

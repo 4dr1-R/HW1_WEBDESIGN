@@ -1,0 +1,529 @@
+/* Login_hover */
+
+position: relative;
+width: 1440px;
+height: 1024px;
+
+background: #E0E0E0;
+
+
+/* ©2026 West University of Timișoara | Data Digitalisation and Analysis */
+
+position: absolute;
+width: 635px;
+height: 57px;
+left: 402px;
+top: 803px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: rgba(156, 66, 153, 0.69);
+
+
+
+/* authentication_panel */
+
+position: absolute;
+width: 1002px;
+height: 607px;
+left: 219px;
+top: 196px;
+
+
+
+/* login_half */
+
+position: absolute;
+width: 1002px;
+height: 607px;
+left: 0px;
+top: 0px;
+
+
+
+/* white_base */
+
+position: absolute;
+width: 1002px;
+height: 607px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.4);
+
+
+/* Single login for access to all e-UVT digital services */
+
+position: absolute;
+width: 284px;
+height: 62px;
+left: 105px;
+top: 500px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: rgba(156, 66, 153, 0.69);
+
+
+
+/* Authentication_button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 5px 0px;
+gap: 10px;
+
+position: absolute;
+width: 316px;
+height: 28px;
+left: 88px;
+top: 434px;
+
+background: rgba(255, 210, 113, 0.95);
+
+
+/* Authentication */
+
+width: 104px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Forgot your password? */
+
+position: absolute;
+width: 191px;
+height: 27px;
+left: 310px;
+top: 384px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+
+color: #F2B125;
+
+
+
+/* checkbox_elem */
+
+position: absolute;
+width: 167px;
+height: 25px;
+left: 86px;
+top: 385px;
+
+
+
+/* Keep me logged in */
+
+position: absolute;
+width: 138px;
+height: 25px;
+left: 115px;
+top: 385px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+
+/* checkbox */
+
+position: absolute;
+width: 19px;
+height: 19px;
+left: 86px;
+top: 388px;
+
+background: #8726A8;
+border-radius: 5px;
+
+
+/* checked_mark */
+
+position: absolute;
+width: 18.05px;
+height: 17.1px;
+left: 86.95px;
+top: 388.95px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+
+color: #FFF7F7;
+
+
+
+/* password_input */
+
+position: absolute;
+width: 355px;
+height: 78px;
+left: 72px;
+top: 289px;
+
+
+
+/* parola */
+
+position: absolute;
+width: 80px;
+height: 29px;
+left: 72px;
+top: 289px;
+
+
+
+/* Parolă */
+
+position: absolute;
+left: 20%;
+right: 20%;
+top: 0%;
+bottom: 0%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: rgba(156, 66, 153, 0.69);
+
+
+
+/* password_textbox */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 340px;
+height: 41px;
+left: 87px;
+top: 326px;
+
+border: 1px solid rgba(0, 0, 0, 0.27);
+border-radius: 10px;
+
+
+/* ******** */
+
+position: absolute;
+width: 63px;
+height: 18px;
+left: 20px;
+top: calc(50% - 18px/2 - 0.5px);
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+
+/* email_input */
+
+position: absolute;
+width: 361px;
+height: 77px;
+left: 71px;
+top: 191px;
+
+
+
+/* email_textbox */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 340px;
+height: 41px;
+left: 92px;
+top: 227px;
+
+border: 1px solid rgba(0, 0, 0, 0.27);
+border-radius: 10px;
+
+
+/* adriana.vasiescu02@e-uvt.ro */
+
+position: absolute;
+width: 212px;
+height: 18px;
+left: 20px;
+top: calc(50% - 18px/2 - 0.5px);
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+
+/* Email */
+
+position: absolute;
+width: 80px;
+height: 29px;
+left: 71px;
+top: 191px;
+
+
+
+/* Email */
+
+position: absolute;
+left: 20%;
+right: 20%;
+top: 0%;
+bottom: 0%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: rgba(156, 66, 153, 0.69);
+
+
+
+/* Authentication_title */
+
+position: absolute;
+width: 347px;
+height: 69px;
+left: 76px;
+top: 82px;
+
+
+
+/* Service: Web Design */
+
+position: absolute;
+width: 277px;
+height: 33px;
+left: 35px;
+top: 52px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Authentication */
+
+position: absolute;
+width: 347px;
+height: 69px;
+left: 0px;
+top: 0px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 44px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #6D429C;
+
+
+
+/* intranet_half */
+
+position: absolute;
+width: 504px;
+height: 607px;
+left: 498px;
+top: 0px;
+
+
+
+/* IMG_half */
+
+position: absolute;
+width: 504px;
+height: 607px;
+left: 498px;
+top: 0px;
+
+background: url(flower_bg.jpg);
+
+
+/* img_mask_layer */
+
+position: absolute;
+width: 941.88px;
+height: 607px;
+left: 60.12px;
+top: 0px;
+
+background: #FFFFFF;
+box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.3);
+
+
+/* bg_blue_img */
+
+position: absolute;
+width: 504px;
+height: 607px;
+left: 498px;
+top: 0px;
+
+background: url(fundalLOGARE.png);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* UVT_logo */
+
+position: absolute;
+width: 139px;
+height: 133px;
+left: 680px;
+top: 97px;
+
+background: url(LogoUVT.png);
+
+
+/* The UVT Intranet Portal is in continuous development, providing useful information for UVT students and staff about e-uvt services. */
+
+position: absolute;
+width: 319px;
+height: 111px;
+left: 590px;
+top: 285px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Button_intranet */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 15px 100px;
+gap: 10px;
+
+position: absolute;
+width: 291px;
+height: 48px;
+left: 604px;
+top: 419px;
+
+background: #6D429C;
+border: 2px solid #C6C6C6;
+
+
+/* UVT Intranet */
+
+width: 91px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
