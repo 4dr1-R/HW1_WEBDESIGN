@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cv.css">
+</head>
+<body>
+
+<a href="#main-content" class="skip-link">
+    Skip to main content
+</a>
+
+<header>
+    <h1>Bloom & Blossom</h1>
+    <p>Portfolio Projects</p>
+
+    <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="content.html">Products</a>
+        <a href="contact.html">Contact</a>
+        <a href="card.html">Business Card</a>
+        <a href="overview.html">Events</a>
+        <a href="chatbot.html">Chatbot</a>
+        <a href="cv.html">Portfolio</a> </nav>
+</header>
+
+<main id="main-content" class="portfolio-main">
+
+    <section class="portfolio-intro">
+        <h2>Project Portfolio</h2>
+        <p>
+            Add your completed projects and display them in the portfolio table below.
+        </p>
+    </section>
+
+    <section class="portfolio-card">
+        <h2>Add a New Project</h2>
+
+        <form id="projectForm" class="project-form" novalidate>
+            <fieldset>
+                <legend>Project Details</legend>
+
+                <div class="form-group">
+                    <label for="projectName">Project Name</label>
+                    <input type="text" id="projectName" name="projectName" aria-describedby="projectNameError">
+                    <span id="projectNameError" class="error-message" aria-live="polite"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="description">Description</label>
+                    <textarea id="description" name="projectDescription" aria-describedby="descriptionHelp descriptionError"></textarea>
+                    <small id="descriptionHelp">Minimum 3 characters.</small>
+                    <span id="descriptionError" class="error-message" aria-live="polite"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="projectUrl">Project URL</label>
+                    <input type="url" id="projectUrl" name="projectUrl" placeholder="https://example.com" aria-describedby="projectUrlError">
+                    <span id="projectUrlError" class="error-message" aria-live="polite"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="technologies">Technologies Used</label>
+                    <select id="technologies" name="projectTech" aria-describedby="technologiesError">
+                        <option value="">Select a technology</option>
+                        <option value="HTML/CSS">HTML/CSS</option>
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="React">React</option>
+                        <option value="Node.js">Node.js</option>
+                        <option value="Full Stack">Full Stack</option>
+                    </select>
+                    <span id="technologiesError" class="error-message" aria-live="polite"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="projectDate">Completion Date</label>
+                    <input type="date" id="projectDate" name="completionDate" aria-describedby="projectDateError">
+                    <span id="projectDateError" class="error-message" aria-live="polite"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="imageUrl">Image URL</label>
+                    <input type="url" id="imageUrl" name="projectImage" placeholder="https://example.com/project.jpg" aria-describedby="imageUrlError">
+                    <span id="imageUrlError" class="error-message" aria-live="polite"></span>
+                </div>
+
+                <div class="form-buttons">
+                    <button type="submit" class="submit-btn">Add Project</button>
+                    <button type="reset" class="reset-btn">Reset Form</button>
+                </div>
+            </fieldset>
+        </form>
+    </section>
+
+    <section class="portfolio-card">
+        <h2>Submitted Projects</h2>
+        <div class="table-wrapper">
+            <table class="projects-table">
+                <caption>Portfolio Projects</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Image</th>
+                        <th scope="col">Project Name</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Project URL</th>
+                        <th scope="col">Technologies</th>
+                        <th scope="col">Completion Date</th>
+                    </tr>
+                </thead>
+                <tbody id="projectsTableBody">
+                    <tr class="empty-state">
+                        <td colspan="6">No projects added yet.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Bloom & Blossom. All Rights Reserved.</p>
+</footer>
+
+<script src="cv.js"></script>
+</body>
+</html>
