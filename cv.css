@@ -92,12 +92,12 @@
 }
 
 .submit-btn {
-  background-color: #a18cd1;
+  background-color: #6a4c93;
   color: white;
 }
 
 .submit-btn:hover {
-  background-color: #6a4c93;
+  background-color: #8760bd;
 }
 
 .reset-btn {
@@ -127,7 +127,7 @@
 }
 
 .projects-table thead {
-  background-color: #a18cd1;
+  background-color:#6a4c93;
   color: white;
 }
 
